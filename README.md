@@ -36,7 +36,7 @@ docker run -d --name muleEsbEE381 -p 8081:8081 -v ~/myAppsDir:/opt/mule/apps -v 
 
 In order to evaluate MuleESB cluster capabilities, you can create a cluster with 2 nodes thanks to [**Docker Compose**](https://docs.docker.com/compose/)
 
- * clone repository from GitHub
+ * clone repository from [GitHub](https://github.com/andreacomo/mule-ee-docker)
  * change dir to `cluster`
  * run
   ```
