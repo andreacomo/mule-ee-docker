@@ -2,7 +2,7 @@ FROM java:openjdk-8-jdk
 
 MAINTAINER andrea.como@gmail.com
 
-COPY ./resources/mule-ee-distribution-standalone-3.8.1.tar.gz /opt
+RUN cd /opt && wget http://s3.amazonaws.com/new-mule-artifacts/mule-ee-distribution-standalone-3.8.1.tar.gz
 
 RUN cd /opt && tar xvzf mule-ee-distribution-standalone-3.8.1.tar.gz && rm mule-ee-distribution-standalone-3.8.1.tar.gz && ln -s /opt/mule-enterprise-standalone-3.8.1 /opt/mule
 
