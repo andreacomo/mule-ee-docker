@@ -1,4 +1,4 @@
-FROM mule-ee
+FROM andreacomo/mule-ee
 
 MAINTAINER andrea.como@gmail.com
 
