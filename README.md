@@ -21,7 +21,6 @@ docker run -d --name muleEsbEE381 -p 8081:8081 -v ~/myAppsDir:/opt/mule/apps -v 
 |------------------ |-----------------------------------------------------------------|
 |/opt/mule/apps     | Mule Application deployment directory                           |
 |/opt/mule/domains  | Mule Domains deployment directory                               |
-|/opt/mule/conf     | Configuration directory                                         |
 |/opt/mule/logs     | Logs directory                                                  |
 
 
