@@ -11,6 +11,7 @@ services:
     volumes:
       - ~/mule-cluster/node1/apps:/opt/mule/apps
       - ~/mule-cluster/node1/logs:/opt/mule/logs
+      - ~/mule-cluster/node1/domains:/opt/mule/domains
     networks:
       - cluster-net
     environment:
@@ -27,6 +28,7 @@ services:
     volumes:
       - ~/mule-cluster/node2/apps:/opt/mule/apps
       - ~/mule-cluster/node2/logs:/opt/mule/logs
+      - ~/mule-cluster/node1/domains:/opt/mule/domains
     networks:
       - cluster-net
     environment:

@@ -1,4 +1,7 @@
+
 # Mule ESB EE Trial Dockerfile
+[![](https://images.microbadger.com/badges/image/andreacomo/mule-ee.svg)](https://microbadger.com/images/andreacomo/mule-ee "Get your own image badge on microbadger.com")
+
 Docker Image packaging for **[MuleESB](http://www.mulesoft.org) Enterprise 30-days trial**.
 
 This image is only for *evaluation purpose* unless you are owner of a valid license key.  
