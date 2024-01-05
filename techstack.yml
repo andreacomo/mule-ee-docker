@@ -2,7 +2,7 @@ repo_name: andreacomo/mule-ee-docker
 report_id: 831507109e63b2e8f7c6bb223e1d455a
 version: 0.1
 repo_type: Public
-timestamp: '2023-12-25T20:39:03+00:00'
+timestamp: '2024-01-05T08:15:17+00:00'
 requested_by: andreacomo
 provider: github
 branch: master
@@ -17,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/andreacomo/mule-ee-docker/blob/master/Dockerfile
   detection_source: Dockerfile
   last_updated_by: acomo_omnia
   last_updated_on: 2016-10-01 22:55:28.000000000 Z
@@ -29,6 +30,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/andreacomo/mule-ee-docker/blob/master/cluster/docker-compose.yml
   detection_source: cluster/docker-compose.yml
   last_updated_by: acomo_omnia
   last_updated_on: 2016-10-01 22:55:28.000000000 Z
@@ -41,6 +43,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/andreacomo/mule-ee-docker
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -50,4 +53,5 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/andreacomo/mule-ee-docker
   detection_source: Repo Metadata
